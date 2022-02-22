@@ -1,0 +1,23 @@
+{
+  "name": "solana",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "@project-serum/anchor": "^0.20.1",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/web3.js": "^1.32.0",
+    "bn.js": "^5.2.0",
+    "node-schedule": "^2.1.0",
+    "uuidv4": "^6.2.12"
+  }
+}
