@@ -1,0 +1,18 @@
+[package]
+name = "address-contract"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+no-entrypoint = []
+
+[dependencies]
+borsh = "0.9.3"
+borsh-derive = "0.9.1"
+solana-program = "~1.8.14"
+
+[lib]
+name = "addresscontract"
+crate-type = ["cdylib", "lib"]
